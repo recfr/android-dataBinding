@@ -11,7 +11,7 @@ import com.recep.aboutwho.databinding.ActivityMainBinding
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
-    private val info = PersonInformation("Recep")
+    private val personInformation = PersonInformation("Recep")
 
 //    lateinit var surnameEditText: EditText
 //    lateinit var surnameText: TextView
@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
          */
 
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
-        binding.info = info
+        binding.info = personInformation
         binding.doneButton.setOnClickListener {
             addSurname(it)
         }

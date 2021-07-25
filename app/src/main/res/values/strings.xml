@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">About Who</string>
     <string name="name">Lorem Ipsum</string>
+    <string name="surname">Lorem Ipsum</string>
     <string name="yellow_star">Yellow Star</string>
     <string name="hint_text">This is a simple hint text.</string>
     <string name="done_button">Done</string>
